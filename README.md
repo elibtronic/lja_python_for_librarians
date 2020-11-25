@@ -14,7 +14,7 @@ Instructional material for Library Juice Academy Python For Librarians
 
 [Week 2 Workalong](https://colab.research.google.com/github/elibtronic/lja_python_for_librarians/blob/main/Week_2_Workalong.ipynb) 
 
-[Week 1 Homework](https://colab.research.google.com/github/elibtronic/lja_python_for_librarians/blob/main/Week_2_Homework.ipynb) 
+[Week 2 Homework](https://colab.research.google.com/github/elibtronic/lja_python_for_librarians/blob/main/Week_2_Homework.ipynb) 
 
 ## Week 3
 
