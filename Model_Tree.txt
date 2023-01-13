@@ -1,0 +1,16 @@
+|--- gender == "male"
+|  |--- age > 9.5
+|  |   |--- class: "died"
+|  |--- age <= 9.5
+|  |   |--- sibsp >= 3
+|  |   |   |--- class: "died"
+|  |   |--- sibsp <= 3
+|  |   |   |--- class: "survived"
+|--- gender == "female"
+|  |--- class: "survived"
+
+
+
+
+
+
