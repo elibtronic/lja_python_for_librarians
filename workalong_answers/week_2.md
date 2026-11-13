@@ -121,7 +121,7 @@ In the cell below reflect on the two code cells above about average checkouts be
 
 In the markdown cell below describe your observations about Adult versus Juvenile borrowers for the Main Library based on all of the different examples we saw above.
 
-*Answer:* You could probably say it in many ways but one solution is, Juvenile's on average check out more material and peform more renewals over adults.
+*Answer:* You could probably say it in many ways but one solution is: Juvenile's have more average total checkouts but less renewals. Which I'll take a guess to say means they read more because they don't need to renew materials as much. ie. they finish quicker.
 
 ## Question 10
 
@@ -141,7 +141,7 @@ Can you find what the average number of checkouts for adult borrowers at the Gle
 ```python
 
 sfl_data[(sfl_data["Home Library Definition"] == "Glen Park") & \
-        (sfl_data["Patron Type Definition"] == "ADULT")].mean()
+        (sfl_data["Patron Type Definition"] == "ADULT")].mean(numeric_only=True)
 
 ```
 
